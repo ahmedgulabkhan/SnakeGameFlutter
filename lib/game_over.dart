@@ -20,7 +20,25 @@ class GameOver extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Game Over', style: TextStyle(color: Colors.redAccent, fontSize: 24.0, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic)),
+            Text('Game Over', style: TextStyle(color: Colors.redAccent, fontSize: 50.0, fontWeight: FontWeight.bold, fontStyle: FontStyle.italic, shadows: [
+                Shadow( // bottomLeft
+                  offset: Offset(-1.5, -1.5),
+                  color: Colors.black
+                ),
+                Shadow( // bottomRight
+                  offset: Offset(1.5, -1.5),
+                  color: Colors.black
+                ),
+                Shadow( // topRight
+                  offset: Offset(1.5, 1.5),
+                  color: Colors.black
+                ),
+                Shadow( // topLeft
+                  offset: Offset(-1.5, 1.5),
+                  color: Colors.black
+                ),
+              ])
+            ),
             
             SizedBox(height: 50.0),
 
