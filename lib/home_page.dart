@@ -21,14 +21,20 @@ class HomePage extends StatelessWidget {
 
             SizedBox(height: 50.0),
 
-            FlatButton.icon(
-              padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 30.0),
-              color: Colors.redAccent,
+           ElevatedButton(
+            
+
+           style: ElevatedButton.styleFrom(
+                primary: Colors.red,
+                padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+                textStyle: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold)),
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(builder: (context) => GamePage()));
               },
-              icon: Icon(Icons.play_circle_filled, color: Colors.white, size: 30.0),
-              label: Text("Start the Game...", style: TextStyle(color: Colors.white, fontSize: 20.0))
+           
+              child: Text("Start the Game...", style: TextStyle(color: Colors.white, fontSize: 20.0))
             ),
           ],
         ),
