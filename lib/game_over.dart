@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class GameOver extends StatelessWidget {
 
-  final int score;
+  final int? score;
 
   GameOver({
     this.score
@@ -45,16 +45,22 @@ class GameOver extends StatelessWidget {
             Text('Your Score is: $score', style: TextStyle(color: Colors.white, fontSize: 20.0)),
 
             SizedBox(height: 50.0),
+ElevatedButton(
+            
 
-            FlatButton.icon(
-              padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 30.0),
-              color: Colors.redAccent,
+           style: ElevatedButton.styleFrom(
+                primary: Colors.red,
+                padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+                textStyle: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold)),
               onPressed: () {
-                Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => GamePage()));
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => GamePage()));
               },
-              icon: Icon(Icons.refresh, color: Colors.white, size: 30.0),
-              label: Text("Try Again", style: TextStyle(color: Colors.white, fontSize: 20.0))
+           
+              child: Text("Try Again", style: TextStyle(color: Colors.white, fontSize: 20.0))
             ),
+            
           ],
         ),
       )

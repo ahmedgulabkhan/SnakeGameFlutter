@@ -11,16 +11,16 @@ class GamePage extends StatefulWidget {
 
 class _GamePageState extends State<GamePage> with TickerProviderStateMixin {
 
-  int _playerScore;
-  bool _hasStarted;
-  Animation _snakeAnimation;
-  AnimationController _snakeController;
+  int? _playerScore;
+  late bool _hasStarted;
+  late Animation _snakeAnimation;
+  late AnimationController _snakeController;
   List _snake = [404, 405, 406, 407];
   final int _noOfSquares = 500;
   final Duration _duration = Duration(milliseconds: 250);
   final int _squareSize = 20;
-  String _currentSnakeDirection;
-  int _snakeFoodPosition;
+  String? _currentSnakeDirection;
+  int? _snakeFoodPosition;
   Random _random = new Random();
 
   @override
@@ -123,7 +123,7 @@ class _GamePageState extends State<GamePage> with TickerProviderStateMixin {
             _gameStart();
           });
         },
-        icon: AnimatedIcon(icon: AnimatedIcons.play_pause, progress: _snakeAnimation)
+        icon: AnimatedIcon(icon: AnimatedIcons.play_pause, progress: _snakeAnimation as Animation<double>)
       ),
       body: Center(
         child: GestureDetector(
