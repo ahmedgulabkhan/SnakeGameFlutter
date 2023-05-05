@@ -1,21 +1,20 @@
-# Classic Flutter
+# Classic Snake
 
-Star ⭐ the repo if you like what you see 😉.
 
 ## 🛈 About
-Classic flutter is a recreation of ahmedgulabkhans adaptation of the famous Snake Game that was present in Nokia mobiles, with a modern look and feel. Created this game using Flutter.
+Classic Snake is a recreation of ahmedgulabkhans adaptation of the famous Snake Game that was present in Nokia mobiles, with a modern look and feel. Created this game using Flutter.
 
 
 ## 💻 Configuration Steps
 1. Cloning the repository:
 
 ```
-$ git clone https://github.com/ahmedgulabkhan/SnakeGameFlutter.git
+$ git clone https://github.com/aarushaggarwal-theone/ClassicSnake.git
 ```
 
 2. Open the project:
 
-`$ cd SnakeGameFlutter/snake`
+`$ cd ClassicSnake/snake`
 
 3. Now run the app on your connected device (using terminal):
 
