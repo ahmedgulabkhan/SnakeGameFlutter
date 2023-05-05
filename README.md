@@ -1,5 +1,4 @@
-# SnakeGameFlutter ![GitHub stars](https://img.shields.io/github/stars/ahmedgulabkhan/SnakeGameFlutter?style=social) ![GitHub forks](https://img.shields.io/github/forks/ahmedgulabkhan/SnakeGameFlutter?style=social) 
-![GitHub pull requests](https://img.shields.io/github/issues-pr/ahmedgulabkhan/SnakeGameFlutter) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ahmedgulabkhan/SnakeGameFlutter) ![GitHub issues](https://img.shields.io/github/issues-raw/ahmedgulabkhan/SnakeGameFlutter) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ahmedgulabkhan/SnakeGameFlutter) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Classic Flutter
 
 Star ⭐ the repo if you like what you see 😉.
 
