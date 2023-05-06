@@ -4,6 +4,9 @@
 ## 🛈 About
 Classic Snake is a recreation of ahmedgulabkhans adaptation of the famous Snake Game that was present in Nokia mobiles, with a modern look and feel. Created this game using Flutter.
 
+##  My Version
+This is a forked repository however my version of the game is int he subdirectory -   ```/snake```
+I used this as a project to learn flutter, and this was from a follow along video that I forked.
 
 ## 💻 Configuration Steps
 1. Cloning the repository:
@@ -26,7 +29,7 @@ $ git clone https://github.com/aarushaggarwal-theone/ClassicSnake.git
 ```
 MIT License
 
-Copyright (c) 2020 Ahmed Gulab Khan
+Copyright (c) 2023 Aarush Aggarwal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
